@@ -1,6 +1,9 @@
 <?php
 
 // Menambah to do list
-function addToDoList()
+function addToDoList(string $todo)
 {
+    global $todolist;
+    $number = sizeof($todolist) + 1;
+    $todolist[$number] = $todo;
 }
