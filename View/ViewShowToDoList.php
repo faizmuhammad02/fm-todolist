@@ -24,7 +24,7 @@ function viewShowToDoList()
         } elseif ($pilihan == "x") {
             break;
         } else {
-            echo "Pilihan tidak dimengerti";
+            echo "Pilihan tidak dimengerti" . PHP_EOL;
         }
     }
     echo "Sampai Jumpa Lagi" . PHP_EOL;
